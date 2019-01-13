@@ -17,7 +17,7 @@ class Person
 
   def happiness=(index)
     @happiness = index
-    index != 11
+    @happiness = 10 if index > 10
   end
 
 
