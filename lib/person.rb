@@ -34,6 +34,8 @@ class Person
   #setter
   def hygiene=(index)
     @hygiene = index
+    @hygiene = 10 if index > 10
+    @hygiene = 0 if index < 0
   end
 
 
