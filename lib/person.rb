@@ -1,9 +1,9 @@
 # your code goes here
 class Person
 
-  attr_accessor :bank_account
+  # attr_accessor :bank_account
   attr_reader :name, :happiness, :hygiene,
-  # attr_writer :bank_account
+  attr_writer :bank_account
 
   def initialize(name)
     @name = name
@@ -13,8 +13,8 @@ class Person
   end
 
   #setter
-  def bank_account=(amount)
-    @balance = amount
+  def bank_account
+    @balance
   end
 
   #setter
