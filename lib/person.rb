@@ -5,9 +5,10 @@ class Person
   attr_reader :name
   # attr_writer
 
-  def initialize(name, balance=25)
+  def initialize(name, balance=25, hapiness)
     @name = name
     @balance = balance
+    @happiness = happiness
   end
 
   def bank_account
