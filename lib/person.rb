@@ -11,7 +11,7 @@ class Person
   end
 
   def bank_account(amount)
-    @balance += amount
+    amount += self.balance
   end
 
 
