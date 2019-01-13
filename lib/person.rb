@@ -13,8 +13,8 @@ class Person
   end
 
   #setter
-  def bank_account
-    @balance
+  def bank_account=(amount)
+    @balance = amount
   end
 
   #setter
