@@ -2,7 +2,7 @@
 class Person
 
   # attr_accessor :bank_account
-  attr_reader :name, :happiness, :hygiene,
+  attr_reader :name, :happiness, :hygiene, :bank_account
   attr_writer :bank_account
 
   def initialize(name)
