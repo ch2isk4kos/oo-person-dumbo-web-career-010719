@@ -51,7 +51,7 @@ class Person
   end
 
   def take_bath
-    self.clean? + 4
+    @hygiene + 4
   end
 
 end
