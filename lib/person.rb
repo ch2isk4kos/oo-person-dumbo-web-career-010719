@@ -38,6 +38,4 @@ class Person
     @hygiene = 0 if index < 0
   end
 
-
-
 end
