@@ -11,12 +11,12 @@ class Person
     @happiness = 8
   end
 
-  def bank_account
-    @balance
+  def bank_account=(amount)
+    @balance = amount
   end
 
   def happiness=(index)
-    @happiness += index
+    @happiness = index
   end
 
 
