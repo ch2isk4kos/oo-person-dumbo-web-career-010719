@@ -9,6 +9,7 @@ class Person
     @name = name
     @balance = 25
     @happiness = 8
+    @hygiene = 8
   end
 
   def bank_account
@@ -26,6 +27,9 @@ class Person
     # end
     @happiness = 10 if index > 10
     @happiness = 0 if index < 0
+  end
+
+  def hygiene
   end
 
 
