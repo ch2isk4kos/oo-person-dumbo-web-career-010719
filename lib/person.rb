@@ -11,7 +11,7 @@ class Person
   end
 
   def bank_account(amount)
-    amount = self.balance
+    self.balance = amount
   end
 
 
