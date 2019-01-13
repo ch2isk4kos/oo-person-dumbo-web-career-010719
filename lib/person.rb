@@ -11,7 +11,7 @@ class Person
     @happiness = happiness
   end
 
-  # setter (getter)
+  
   def bank_account
     @balance
   end
