@@ -12,10 +12,12 @@ class Person
     @hygiene = 8
   end
 
+  #setter
   def bank_account
     @balance
   end
 
+  #setter
   def happiness=(index)
     @happiness = index
     # if index > 10
@@ -29,8 +31,9 @@ class Person
     @happiness = 0 if index < 0
   end
 
-  def hygiene
-    @hygiene
+  #setter
+  def hygiene=(index)
+    @hygiene = index
   end
 
 
