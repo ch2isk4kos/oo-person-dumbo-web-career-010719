@@ -5,11 +5,11 @@ class Person
 
   def initialize(name)
     @name = name
-    @balance = 0
+    @balance = 25
   end
 
   def bank_account
-    self.balance = 25
+    # self.balance = 25
   end
 
 
