@@ -46,8 +46,8 @@ class Person
   end
 
   def get_paid(salary)
-    self.bank_account + salary
-    self.bank_account+=salary
+    self.bank_account += salary
+    
   end
 
 end
