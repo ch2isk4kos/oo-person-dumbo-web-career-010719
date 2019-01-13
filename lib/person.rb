@@ -2,7 +2,7 @@
 class Person
 
   # attr_accessor :bank_account
-  attr_reader :name, :happiness, :hygiene
+  attr_reader :name, :happiness, :hygiene, 
   attr_writer :bank_account
 
   def initialize(name)
@@ -36,6 +36,14 @@ class Person
     @hygiene = index
     @hygiene = 10 if index > 10
     @hygiene = 0 if index < 0
+  end
+
+  def happy?
+    if @happiness > 7
+      true
+    else
+      false
+    end
   end
 
 end
