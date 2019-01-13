@@ -3,7 +3,7 @@ class Person
 
   attr_reader :name, :balance
 
-  def initialize(name, balance)
+  def initialize(name)
     @name = name
     @balance = 25
   end
