@@ -29,7 +29,9 @@ class Person
     @happiness = 0 if index < 0
   end
 
-
+  def hygiene
+    @hygiene
+  end
 
 
 
