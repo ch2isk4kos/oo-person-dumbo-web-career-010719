@@ -21,7 +21,7 @@ class Person
       happiness = 10
     end
     # @happiness = 10 if index > 10
-    @happiness = 0 if index < 0
+    # @happiness = 0 if index < 0
   end
 
 
