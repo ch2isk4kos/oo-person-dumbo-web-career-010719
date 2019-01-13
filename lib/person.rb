@@ -10,8 +10,8 @@ class Person
     @balance = 25
   end
 
-  def bank_account(amount)
-    self.balance = amount
+  def bank_account
+  
   end
 
 
