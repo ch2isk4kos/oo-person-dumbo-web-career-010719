@@ -10,7 +10,9 @@ class Person
     @balance = balance
   end
 
-
+  def bank_account
+    @balance
+  end
 
 
 
