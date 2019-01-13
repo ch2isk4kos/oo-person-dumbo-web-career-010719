@@ -1,7 +1,7 @@
 # your code goes here
 class Person
 
-  attr_accessor 
+  # attr_accessor
   attr_reader :name
   attr_writer :balance
 
