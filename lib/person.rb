@@ -14,6 +14,10 @@ class Person
     @balance
   end
 
+  def happiness
+    
+  end
+
 
 
 end
