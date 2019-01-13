@@ -11,7 +11,7 @@ class Person
   end
 
   def bank_account
-  
+
   end
 
 
