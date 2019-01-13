@@ -47,7 +47,7 @@ class Person
 
   def get_paid(salary)
     @balance += salary
-    return "All about the benjamins"
+    "all about the benjamins"
   end
 
 end
