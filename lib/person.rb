@@ -1,11 +1,11 @@
 # your code goes here
 class Person
 
-  attr_accessor :bank_account
+  # attr_accessor :bank_account
   attr_reader :name
-  # attr_writer
+  attr_writer :bank_account
 
-  def initialize(name, balance=25, hapiness)
+  def initialize(name, balance=25, hapiness=8)
     @name = name
     @balance = balance
     @happiness = happiness
@@ -16,7 +16,7 @@ class Person
   end
 
   def happiness
-    
+
   end
 
 
